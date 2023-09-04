@@ -6503,9 +6503,9 @@
 		
 		{
 			"predicate": {
-				"custom_model_data": 929
+				"custom_model_data": 1000
 			},
-			"model": "minecraft:item/custom/test_item"
+			"model": "minecraft:item/custom/void_item"
 		}
 		
   ]
