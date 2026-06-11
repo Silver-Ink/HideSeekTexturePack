@@ -81,6 +81,13 @@
         }
       },
       {
+        "when": "transform_into_mobs_what",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map_icons/transform_into_mobs_what"
+        }
+      },
+      {
         "when": "unknown_space_ship",
         "model": {
           "type": "minecraft:model",
