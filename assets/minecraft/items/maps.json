@@ -1,0 +1,47 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:item_model",
+    "cases": [
+      {
+        "when": "custom:map_farm",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/map_farm"
+        }
+      },
+      {
+        "when": "custom:map_manor",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/map_manor"
+        }
+      },
+      {
+        "when": "custom:map_old_house",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/map_old_house"
+        }
+      },
+     {
+        "when": "custom:map_immeuble",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/map_immeuble"
+        }
+      },
+     {
+        "when": "custom:map_pallet_town",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/map_pallet_town"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/map"
+    }
+  }
+}
