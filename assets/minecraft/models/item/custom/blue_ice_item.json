@@ -1,7 +1,6 @@
 {
     "textures":  {
                      "0":  "minecraft:block/blue_ice",
-                     "1":  "minecraft:item/aaa_void",
                      "particle":  "minecraft:block/blue_ice"
                  },
     "elements":  [
@@ -24,7 +23,7 @@
                                                                 16,
                                                                 0.01
                                                             ],
-                                                     "texture":  "#1"
+                                                     "texture":  "#0"
                                                  },
                                        "east":  {
                                                     "uv":  [
@@ -33,7 +32,7 @@
                                                                16,
                                                                0.01
                                                            ],
-                                                    "texture":  "#1"
+                                                    "texture":  "#0"
                                                 },
                                        "south":  {
                                                      "uv":  [
@@ -42,7 +41,7 @@
                                                                 16,
                                                                 0.01
                                                             ],
-                                                     "texture":  "#1"
+                                                     "texture":  "#0"
                                                  },
                                        "west":  {
                                                     "uv":  [
@@ -51,7 +50,7 @@
                                                                16,
                                                                0.01
                                                            ],
-                                                    "texture":  "#1"
+                                                    "texture":  "#0"
                                                 },
                                        "up":  {
                                                   "uv":  [
@@ -69,7 +68,7 @@
                                                                16,
                                                                16
                                                            ],
-                                                    "texture":  "#1"
+                                                    "texture":  "#0"
                                                 }
                                    }
                      }
