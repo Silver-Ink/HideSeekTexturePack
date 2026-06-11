@@ -1,7 +1,6 @@
 {
-"pack": {
-"pack_format": 15,
-"supported_formats": [15, 84],
-"description": "Resource pack made for a hide and seek map."
-}
+  "pack": {
+    "pack_format": 83,
+    "description": "Resource pack made for a hide and seek map."
+  }
 }
