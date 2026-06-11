@@ -4,17 +4,31 @@
     "property": "minecraft:item_model",
     "cases": [
       {
-        "when": "custom:map_hider",
+        "when": "custom:map_farm",
         "model": {
           "type": "minecraft:model",
-          "model": "custom:item/map_hider"
+          "model": "custom:item/map_farm"
         }
       },
       {
-        "when": "custom:map_seeker",
+        "when": "custom:map_manor",
         "model": {
           "type": "minecraft:model",
-          "model": "custom:item/map_seeker"
+          "model": "custom:item/map_manor"
+        }
+      },
+      {
+        "when": "custom:map_old_house",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/map_old_house"
+        }
+      },
+     {
+        "when": "custom:map_immeuble",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/map_immeuble"
         }
       }
     ],
