@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "clock",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/item_icons/game_mode"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/clock"
+    }
+  }
+}
