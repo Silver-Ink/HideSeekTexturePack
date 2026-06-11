@@ -30,6 +30,13 @@
           "type": "minecraft:model",
           "model": "custom:item/map_immeuble"
         }
+      },
+     {
+        "when": "custom:map_pallet_town",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/map_pallet_town"
+        }
       }
     ],
     "fallback": {
