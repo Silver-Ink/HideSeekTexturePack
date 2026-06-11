@@ -46,6 +46,13 @@
         }
       },
       {
+        "when": "the_house",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map_icons/the_house"
+        }
+      },
+      {
         "when": "pallet_town",
         "model": {
           "type": "minecraft:model",
