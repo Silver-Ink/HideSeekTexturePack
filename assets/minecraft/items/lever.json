@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "spectator",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map_icons/spectator"
+        }
+      },
+      {
+        "when": "infected",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map_icons/infected"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/lever"
+    }
+  }
+}
