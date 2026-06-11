@@ -1,6 +1,8 @@
 {
   "pack": {
-    "pack_format": 83,
-    "description": "Resource pack made for a hide and seek map."
+    "pack_format": 84,
+    "min_format": [84, 0],
+    "max_format": [84, 0],
+    "description": "Resource pack made for a hide and seek map. Updated for Java 26.1."
   }
 }
