@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:item_model",
+    "cases": [
+      {
+        "when": "custom:map_hider",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/map_hider"
+        }
+      },
+      {
+        "when": "custom:map_seeker",
+        "model": {
+          "type": "minecraft:model",
+          "model": "custom:item/map_seeker"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/map"
+    }
+  }
+}
