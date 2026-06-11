@@ -1,0 +1,82 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "farm",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map_icons/farm"
+        }
+      },
+      {
+        "when": "hotel",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map_icons/hotel"
+        }
+      },
+      {
+        "when": "immeuble",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map_icons/immeuble"
+        }
+      },
+      {
+        "when": "infested_cave",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map_icons/infested_cave"
+        }
+      },
+      {
+        "when": "manor",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map_icons/manor"
+        }
+      },
+      {
+        "when": "old_house",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map_icons/old_house"
+        }
+      },
+      {
+        "when": "pallet_town",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map_icons/pallet_town"
+        }
+      },
+      {
+        "when": "the_cave",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map_icons/the_cave"
+        }
+      },
+      {
+        "when": "unknown_space_ship",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map_icons/unknown_space_ship"
+        }
+      },
+      {
+        "when": "zoo",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map_icons/zoo"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/map"
+    }
+  }
+}
