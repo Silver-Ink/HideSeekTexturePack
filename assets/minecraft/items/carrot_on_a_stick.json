@@ -1,13 +1,27 @@
 {
   "model": {
-    "type": "minecraft:select",
+    "type": "minecraft:range_dispatch",
     "property": "minecraft:custom_model_data",
-    "cases": [
+    "entries": [
       {
-        "when": "start",
+        "threshold": 1,
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/item_icons/start"
+          "model": "minecraft:item/map_icons/transform_into_blocks"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map_icons/transform_into_mobs"
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map_icons/transform_into_mobs_what"
         }
       }
     ],
