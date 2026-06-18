@@ -74,6 +74,13 @@
         }
       },
       {
+        "when": "transform_into_ghost",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map_icons/transform_into_ghost"
+        }
+      },
+      {
         "when": "transform_into_mobs",
         "model": {
           "type": "minecraft:model",
