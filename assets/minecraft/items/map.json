@@ -18,6 +18,13 @@
         }
       },
       {
+        "when": "hobbit_town",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map_icons/hobbit_town"
+        }
+      },
+      {
         "when": "immeuble",
         "model": {
           "type": "minecraft:model",
@@ -57,6 +64,13 @@
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/map_icons/pallet_town"
+        }
+      },
+      {
+        "when": "random",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map_icons/random"
         }
       },
       {
