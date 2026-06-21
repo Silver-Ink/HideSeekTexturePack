@@ -67,6 +67,13 @@
         }
       },
       {
+        "when": "maya_temple",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map_icons/maya_temple"
+        }
+      },
+      {
         "when": "random",
         "model": {
           "type": "minecraft:model",
