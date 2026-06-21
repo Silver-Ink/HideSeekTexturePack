@@ -30,6 +30,13 @@
           "type": "minecraft:model",
           "model": "minecraft:item/map_icons/transform_into_ghost"
         }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/item_icons/splash"
+        }
       }
     ],
     "fallback": {

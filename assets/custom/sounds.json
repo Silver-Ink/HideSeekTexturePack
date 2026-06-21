@@ -78,6 +78,18 @@
       "audio20": {
         "sounds": [
           "custom:20"]
+      },
+      "audio21": {
+        "sounds": [
+          "custom:21"]
+      },
+        "audio22": {
+        "sounds": [
+          "custom:22"]
+      },
+        "audio23": {
+        "sounds": [
+          "custom:23"]
       }
   }
   
