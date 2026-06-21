@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "chatteur",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/item_icons/chatteur"
+        }
+      },
+      {
+        "when": "unchatteur",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/item_icons/unchatteur"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_ingot"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "invisibility",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/item_icons/invisibility"
+        }
+      },
+      {
+        "when": "uninvisibility",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/item_icons/uninvisibility"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_ingot"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "swaper",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/item_icons/swaper"
+        }
+      },
+      {
+        "when": "unswaper",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/item_icons/unswaper"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/gold_ingot"
+    }
+  }
+}
