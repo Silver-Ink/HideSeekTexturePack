@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "minecraft:block/structure_void"
+      "model": "hns:block/lime_sphere"
     }
   }
 }
